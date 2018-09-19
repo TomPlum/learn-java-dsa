@@ -1,1 +1,1 @@
-# Learning Data Strucutres & Algorithms in Java
+# Learning Data Structures & Algorithms in Java
