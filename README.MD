@@ -38,7 +38,7 @@
 
 ## Collection Classes
 
-###HashMap
+### HashMap
 HashMap<K, V> extends AbstractMap<K, V> implements Map<K, V>
 Default Initial Capacity: 16, Load Factor: 0.75.
 [JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
