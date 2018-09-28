@@ -23,7 +23,7 @@
 * AbstractCollection
 * AbstractList
 * AbstractSequentialList
-* LinkedList
+* [LinkedList](###LinkedList)
 * ArrayList
 * AbstractSet
 * HashSet
@@ -36,7 +36,17 @@
 * LinkedHashMap
 * IdentityHashMap
 
+## Collection Interfaces
+
+### Set
+Interface Set\<E\> [JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)
+
+#### Key Info
+* A collection that contains no duplicate elements.
+
 ## Collection Classes
+
+### LinkedList
 
 ### HashMap
 HashMap<K, V> extends AbstractMap<K, V> implements Map<K, V>
@@ -46,7 +56,7 @@ Default Initial Capacity: 16, Load Factor: 0.75.
 #### Key Info
 * To access a value, you must know its key.
 * [Hashing](quiz.geeksforgeeks.org/hashing-set-1-introduction/) is the technique of converting a large String to a small String that represents the same String. The shorter value helps in indexing and faster searches.
-* It internally uses a LinkedList to store Key:Value pairs. It contains an array of Node, a class with four fields (`int` hash, `K` key, `V` value, `Node` next).
+* It internally uses a LinkedList to store Key:Value pairs. It contains an array of Node, a class with four fields (`int` hash, `K` key, `V` value, `Node` next). 
 * They don't allow duplicate keys, but do allow duplicate values. They allow null values, but only a single null key. Likewise, multiple null values.
 * This class makes no guarantee that it's order will be maintained over time. It is 'unsynchronised', also meaning that multiple threads can access it simultaneously.
 
